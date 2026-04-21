@@ -1,0 +1,27 @@
+# Imagenes del dataset (demasiado grandes para git)
+melanoma_train_data_benign/Benign/*
+!melanoma_train_data_benign/Benign/.gitkeep
+melanoma_train_data_malignant/Malignant/*
+!melanoma_train_data_malignant/Malignant/.gitkeep
+melanoma_test_data/test/Benign/*
+!melanoma_test_data/test/Benign/.gitkeep
+melanoma_test_data/test/Malignant/*
+!melanoma_test_data/test/Malignant/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Entornos
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
